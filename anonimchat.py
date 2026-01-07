@@ -3,8 +3,8 @@ from telebot import types
 import random
 
 # === BOT MA'LUMOTLARI ===
-BOT_TOKEN = "8417678521:AAFOFJ_7q-oDkm-3_gGArQj50nRFfQZPwxE"
-ADMIN_ID = 1002565413421  # O'zingizning Telegram ID'ingizni qo'ying
+BOT_TOKEN = "8518056832:AAHItL8m3WSWdTN_zsyx-YTjGpImpTp7XwY"
+ADMIN_ID = 6576561907  # O'zingizning Telegram ID'ingizni qo'ying
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
@@ -132,3 +132,4 @@ def forward_message(message):
 # === ISHGA TUSHURISH ===
 print("🤖 Bot ishga tushdi...")
 bot.polling(none_stop=True)
+
